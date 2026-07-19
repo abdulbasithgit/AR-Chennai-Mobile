@@ -44,6 +44,18 @@ html {
 
 
 
+/* Tamil glyphs render larger than Latin at the same size, so scale the
+
+   whole page down slightly when Tamil is active. English is unaffected. */
+
+html[lang="ta"] {
+
+  font-size: 91%;
+
+}
+
+
+
 section {
 
   padding: 6rem 0;
@@ -371,6 +383,58 @@ header {
   background: rgba(255, 215, 0, 0.18);
 
   color: var(--gold);
+
+  transform: translateY(-2px);
+
+}
+
+
+
+.lang-toggle {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 0.5rem;
+
+  padding: 0.5rem 0.9rem;
+
+  border: 1px solid rgba(255, 215, 0, 0.4);
+
+  border-radius: 999px;
+
+  background: rgba(255, 215, 0, 0.1);
+
+  color: var(--text-main);
+
+  font-family: inherit;
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.25s ease;
+
+}
+
+
+
+.lang-toggle i {
+
+  font-size: 0.95rem;
+
+  color: var(--gold);
+
+}
+
+
+
+.lang-toggle:hover {
+
+  background: rgba(255, 215, 0, 0.22);
 
   transform: translateY(-2px);
 
@@ -906,6 +970,14 @@ header {
 
 
   .nav-icons {
+
+    margin-left: auto;
+
+  }
+
+
+
+  .nav-icons a {
 
     display: none;
 
