@@ -23,7 +23,7 @@ const AR_TRANSLATIONS = {
     story_subtitle: "Our Journey",
     story_title: "Our Story",
     story_p1:
-      "The Chennai Mobiles, founded in 2003 by the dynamic and visionary Managing Director, Mr. A.M Samsu Ali, has been a formidable player in the mobile retail industry for two decades. Based in Coimbatore, Tamil Nadu, our journey has been marked by innovation, expansion, and a relentless commitment to customer satisfaction. Here, we present the story of The Chennai Mobiles in a thousand words, highlighting our vision, mission, year-wise achievements, and a reflection on our journey.",
+      "The Chennai Mobiles, founded in 2003 by the dynamic and visionary Managing Director, Mr. Mohamed Azik, has been a formidable player in the mobile retail industry for two decades. Based in Coimbatore, Tamil Nadu, our journey has been marked by innovation, expansion, and a relentless commitment to customer satisfaction. Here, we present the story of The Chennai Mobiles in a thousand words, highlighting our vision, mission, year-wise achievements, and a reflection on our journey.",
     story_p2:
       "We believe that everyone deserves access to the latest mobile technology. That's why we've partnered with the world's leading brands to bring you flagship devices, premium accessories, and exclusive offers.",
     story_p3:
