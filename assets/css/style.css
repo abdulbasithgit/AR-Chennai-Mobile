@@ -2265,6 +2265,22 @@ header {
 
 }
 
+.footer-bottom .footer-reg {
+
+  margin-bottom: 0.5rem;
+
+  letter-spacing: 0.3px;
+
+}
+
+.footer-bottom .footer-reg span {
+
+  color: var(--gold);
+
+  font-weight: 600;
+
+}
+
 
 
 /* ================= RESPONSIVE STYLES ================= */
