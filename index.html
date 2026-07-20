@@ -128,13 +128,17 @@
               alt="Premium smartphone"
             />
             <video
+              id="heroVideo"
               src="assets/images/Sample4.MP4"
               autoplay
               muted
-              loop
               playsinline
               class="hero-video"
             ></video>
+            <a href="#instagram" class="hero-reels-cta" id="heroReelsCta" aria-label="Watch our Instagram reels">
+              <i class="fa-brands fa-instagram"></i>
+              <span data-i18n="hero_reels">Watch our reels</span>
+            </a>
           </div>
         </div>
       </div>
@@ -157,6 +161,29 @@
 
       <div class="scroll-indicator" aria-hidden="true">
         <span></span>
+      </div>
+    </section>
+
+    <!-- ================= INSTAGRAM ================= -->
+    <section class="instagram" id="instagram">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="subtitle" data-i18n="insta_subtitle">Follow Us</span>
+          <h2 data-i18n="insta_title">We're on Instagram</h2>
+          <p class="insta-lead" data-i18n="insta_p">See our latest arrivals, offers and store moments. Follow us for daily updates.</p>
+        </div>
+        <div class="insta-grid" data-aos="fade-up">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Da9hMcCSByk/" data-instgrm-version="14"></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Da7CRrmS8gr/" data-instgrm-version="14"></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DannD9iS7mi/" data-instgrm-version="14"></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dahwms8PiGE/" data-instgrm-version="14"></blockquote>
+        </div>
+        <div class="insta-cta" data-aos="fade-up">
+          <a href="https://www.instagram.com/chennaimobileskaraikudi?igsh=YW9yb2w1Zmp0OHIw" target="_blank" rel="noopener" class="btn primary">
+            <i class="fa-brands fa-instagram"></i>
+            <span data-i18n="insta_btn">Follow @chennaimobileskaraikudi</span>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -494,6 +521,9 @@
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Instagram embeds -->
+    <script async src="https://www.instagram.com/embed.js"></script>
 
     <!-- i18n -->
     <script src="assets/js/i18n.js"></script>

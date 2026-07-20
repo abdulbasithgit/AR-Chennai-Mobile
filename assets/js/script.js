@@ -30,6 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const heroVideo = document.getElementById("heroVideo");
+  const heroReelsCta = document.getElementById("heroReelsCta");
+  if (heroVideo && heroReelsCta) {
+    heroVideo.addEventListener("ended", () => {
+      heroReelsCta.classList.add("show");
+    });
+  }
+
   new Swiper(".heroSwiper", {
     loop: true,
     autoplay: {
