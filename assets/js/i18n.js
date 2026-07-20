@@ -77,7 +77,7 @@ const AR_TRANSLATIONS = {
     store_branch: "Karaikudi Branch",
     store_addr_ta: "செக்காலை சாலை, காரைக்குடி - 630001",
     store_addr_en: "Sekkalai Road, Karaikudi - 630001",
-    store_hours: "Mon-Sat: 9AM-9PM, Sun: 10AM-6PM",
+    store_hours: "Monday - Sunday: 9AM - 9PM",
 
     contact_subtitle: "Get In Touch",
     contact_title: "Contact Us",
@@ -183,7 +183,7 @@ const AR_TRANSLATIONS = {
     store_branch: "காரைக்குடி கிளை",
     store_addr_ta: "செக்காலை சாலை, காரைக்குடி - 630001",
     store_addr_en: "செக்காலை சாலை, காரைக்குடி - 630001",
-    store_hours: "திங்கள்-சனி: காலை 9 - இரவு 9, ஞாயிறு: காலை 10 - மாலை 6",
+    store_hours: "திங்கள் - ஞாயிறு: காலை 9 - இரவு 9",
 
     contact_subtitle: "தொடர்பில் இருங்கள்",
     contact_title: "தொடர்பு கொள்ள",
