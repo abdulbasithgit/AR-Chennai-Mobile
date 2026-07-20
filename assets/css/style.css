@@ -1887,6 +1887,22 @@ header {
 
 }
 
+.contact-item p a {
+
+  color: inherit;
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+
+}
+
+.contact-item p a:hover {
+
+  color: var(--gold);
+
+}
+
 
 
 .social-links {
