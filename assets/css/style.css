@@ -1251,6 +1251,80 @@ header {
 
 
 
+/* ================= INSTAGRAM ================= */
+
+.instagram {
+  padding: 6rem 0;
+}
+
+.insta-lead {
+  max-width: 640px;
+  margin: 1rem auto 0;
+  color: var(--text-muted);
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 3rem;
+}
+
+.insta-item {
+  position: relative;
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.insta-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.insta-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.55), rgba(131, 58, 180, 0.55));
+  color: #fff;
+  font-size: 2.4rem;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.insta-item:hover img {
+  transform: scale(1.08);
+}
+
+.insta-item:hover .insta-overlay {
+  opacity: 1;
+}
+
+.insta-cta {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.insta-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+@media (max-width: 600px) {
+  .insta-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 /* ================= BRANDS ================= */
 
 .brands-grid {

@@ -20,6 +20,11 @@ const AR_TRANSLATIONS = {
     hero_shop: "Shop Now",
     hero_contact: "Contact Us",
 
+    insta_subtitle: "Follow Us",
+    insta_title: "We're on Instagram",
+    insta_p: "See our latest arrivals, offers and store moments. Follow us for daily updates.",
+    insta_btn: "Follow @chennaimobileskaraikudi",
+
     story_subtitle: "Our Journey",
     story_title: "Our Story",
     story_p1:
@@ -125,6 +130,11 @@ const AR_TRANSLATIONS = {
       "புதிய ஸ்மார்ட்போன்கள், முன்னணி பிராண்டுகள், அற்புதமான சலுகைகள், உத்தரவாதத்துடன் சிறப்பு தள்ளுபடிகள் மற்றும் அசல் தயாரிப்புகளைக் கண்டறியுங்கள். சிறந்த விலை மற்றும் விற்பனைக்குப் பிந்தைய சேவை உறுதி.",
     hero_shop: "இப்போது வாங்குங்கள்",
     hero_contact: "தொடர்பு கொள்ள",
+
+    insta_subtitle: "எங்களைப் பின்தொடருங்கள்",
+    insta_title: "நாங்கள் இன்ஸ்டக்கிராமில் இருக்கிறோம்",
+    insta_p: "எங்களுடைய சமீபத்திய புதிய வரவுகள், சலுகைகள் மற்றும் கடை தருணங்களைப் பாருங்கள். தினசரி புதுப்பிப்புகளுக்கு எங்களைப் பின்தொடருங்கள்.",
+    insta_btn: "@chennaimobileskaraikudi ஐப் பின்தொடருங்கள்",
 
     story_subtitle: "எங்கள் பயணம்",
     story_title: "எங்கள் கதை",
