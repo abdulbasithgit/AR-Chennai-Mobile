@@ -19,6 +19,7 @@ const AR_TRANSLATIONS = {
       "Discover new smartphones, leading brands, amazing offers, special discounts with guarantee and original products. Best price and after-sales service assured.",
     hero_shop: "Shop Now",
     hero_contact: "Contact Us",
+    hero_reels: "Watch our reels",
 
     insta_subtitle: "Follow Us",
     insta_title: "We're on Instagram",
@@ -130,6 +131,7 @@ const AR_TRANSLATIONS = {
       "புதிய ஸ்மார்ட்போன்கள், முன்னணி பிராண்டுகள், அற்புதமான சலுகைகள், உத்தரவாதத்துடன் சிறப்பு தள்ளுபடிகள் மற்றும் அசல் தயாரிப்புகளைக் கண்டறியுங்கள். சிறந்த விலை மற்றும் விற்பனைக்குப் பிந்தைய சேவை உறுதி.",
     hero_shop: "இப்போது வாங்குங்கள்",
     hero_contact: "தொடர்பு கொள்ள",
+    hero_reels: "எங்கள் ரீல்களைப் பார்க்க",
 
     insta_subtitle: "எங்களைப் பின்தொடருங்கள்",
     insta_title: "நாங்கள் இன்ஸ்டக்கிராமில் இருக்கிறோம்",
