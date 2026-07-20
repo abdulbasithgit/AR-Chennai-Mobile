@@ -106,6 +106,7 @@ const AR_TRANSLATIONS = {
     footer_financing: "Financing",
     footer_support: "Support",
     footer_rights: "All rights reserved.",
+    footer_reg: "GST Registration No:",
 
     toggle_label: "தமிழ்",
   },
@@ -211,6 +212,7 @@ const AR_TRANSLATIONS = {
     footer_financing: "நிதியுதவி",
     footer_support: "ஆதரவு",
     footer_rights: "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+    footer_reg: "ஜிஎஸ்டி பதிவு எண்:",
 
     toggle_label: "English",
   },
