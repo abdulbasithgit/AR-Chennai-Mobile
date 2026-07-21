@@ -3,532 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <meta
       name="description"
-      content="AR Chennai Mobiles is a premium mobile showroom experience with flagship devices, accessories, and exclusive offers."
+      content="AR Chennai Mobiles website is temporarily unavailable. We will be back soon."
     />
-
-    <title>AR Chennai Mobiles | Multi-Brand Mobile Showroom</title>
-
-    <!-- Favicon -->
+    <title>AR Chennai Mobiles | We'll be back soon</title>
     <link rel="icon" type="image/x-icon" href="assets/images/AR-premium-favicon.ico" />
-
-    <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: radial-gradient(circle at top, #1a1a2e 0%, #0f0f1a 100%);
+        color: #f5f5f5;
+        padding: 24px;
+      }
+      .card {
+        max-width: 560px;
+      }
+      .logo {
+        width: 140px;
+        height: auto;
+        margin-bottom: 32px;
+      }
+      h1 {
+        font-size: clamp(1.8rem, 5vw, 2.6rem);
+        font-weight: 700;
+        margin-bottom: 16px;
+        letter-spacing: 0.5px;
+      }
+      .accent {
+        color: #f4b400;
+      }
+      p {
+        font-size: clamp(1rem, 2.5vw, 1.15rem);
+        line-height: 1.6;
+        color: #c9c9d4;
+        margin-bottom: 12px;
+      }
+      .divider {
+        width: 60px;
+        height: 3px;
+        background: #f4b400;
+        border-radius: 2px;
+        margin: 28px auto;
+      }
+      .footer {
+        margin-top: 36px;
+        font-size: 0.85rem;
+        color: #7a7a88;
+      }
+    </style>
   </head>
-
   <body>
-    <!-- Animated Background -->
-    <div class="background" aria-hidden="true">
-      <span class="circle one"></span>
-      <span class="circle two"></span>
-      <span class="circle three"></span>
+    <div class="card">
+      <img
+        class="logo"
+        src="assets/images/logoImg.png"
+        alt="AR Chennai Mobiles"
+        onerror="this.style.display='none'"
+      />
+      <h1>We&rsquo;ll be back <span class="accent">soon</span></h1>
+      <div class="divider"></div>
+      <p>
+        Our website is temporarily unavailable while we carry out some
+        maintenance.
+      </p>
+      <p>Thank you for your patience &mdash; please check back shortly.</p>
+      <div class="footer">&copy; AR Chennai Mobiles</div>
     </div>
-
-    <!-- ================= NAVBAR ================= -->
-    <header id="header">
-      <div class="container">
-        <nav class="navbar" aria-label="Main navigation">
-          <a href="#" class="logo">
-            <img src="assets/images/logoImg.png" alt="AR Chennai Mobiles" class="logo-img" />
-          </a>
-
-          <ul class="nav-menu">
-            <li><a href="#home" data-i18n="nav_home">Home</a></li>
-            <li><a href="#story" data-i18n="nav_story">Our Story</a></li>
-            <li><a href="#brands" data-i18n="nav_brands">Our Top Brands</a></li>
-            <li><a href="#vision" data-i18n="nav_vision">Our Vision</a></li>
-            <li><a href="#store-locator" data-i18n="nav_store">Store Locator</a></li>
-            <li><a href="#contact" data-i18n="nav_contact">Contact Us</a></li>
-          </ul>
-
-          <div class="nav-icons">
-            <button
-              type="button"
-              class="lang-toggle"
-              aria-label="Switch language"
-            >
-              <i class="fa-solid fa-globe" aria-hidden="true"></i>
-              <span class="lang-toggle-label">தமிழ்</span>
-            </button>
-            <a href="https://www.instagram.com/chennaimobileskaraikudi?igsh=YW9yb2w1Zmp0OHIw" target="_blank" aria-label="Instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/share/19EyjKRQPp/" target="_blank" aria-label="Facebook">
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-          </div>
-
-          <button
-            class="menu-toggle"
-            type="button"
-            aria-label="Toggle navigation"
-            aria-expanded="false"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
-      </div>
-    </header>
-
-    <!-- ================= HERO ================= -->
-    <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <span class="subtitle" data-aos="fade-right" data-i18n="hero_subtitle">
-            Multi-Brand Mobile Showroom
-          </span>
-
-          <h1 data-aos="fade-up" data-i18n-html="hero_title">
-            Experience
-            <span>Premium</span>
-            Mobile Technology
-          </h1>
-
-          <p data-aos="fade-up" data-aos-delay="200" data-i18n="hero_desc">
-            Discover new smartphones, leading brands, amazing offers, 
-            special discounts with guarantee and original products. Best price 
-            and after-sales service assured.
-          </p>
-
-          <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
-            <a href="#brands" class="btn primary" data-i18n="hero_shop">Shop Now</a>
-            <a href="#contact" class="btn secondary" data-i18n="hero_contact">Contact Us</a>
-          </div>
-        </div>
-
-        <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
-          <div class="phone-frame">
-            <img
-              src="assets/images/hero-phone.svg"
-              class="floating-phone"
-              alt="Premium smartphone"
-            />
-            <video
-              id="heroVideo"
-              src="assets/images/Sample4.MP4"
-              autoplay
-              muted
-              playsinline
-              class="hero-video"
-            ></video>
-            <a href="#instagram" class="hero-reels-cta" id="heroReelsCta" aria-label="Watch our Instagram reels">
-              <i class="fa-brands fa-instagram"></i>
-              <span data-i18n="hero_reels">Watch our reels</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper heroSwiper" data-aos="fade-up" data-aos-delay="500">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="assets/images/Sample1.png" alt="Featured mobile deal" />
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/Sample2.png" alt="Latest smartphone release" />
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/Sample3.png" alt="Premium accessories collection" />
-          </div>
-        </div>
-
-        <div class="swiper-pagination"></div>
-      </div>
-
-      <div class="scroll-indicator" aria-hidden="true">
-        <span></span>
-      </div>
-    </section>
-
-    <!-- ================= INSTAGRAM ================= -->
-    <section class="instagram" id="instagram">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="subtitle" data-i18n="insta_subtitle">Follow Us</span>
-          <h2 data-i18n="insta_title">We're on Instagram</h2>
-          <p class="insta-lead" data-i18n="insta_p">See our latest arrivals, offers and store moments. Follow us for daily updates.</p>
-        </div>
-        <div class="insta-grid" data-aos="fade-up">
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Da9hMcCSByk/" data-instgrm-version="14"></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Da7CRrmS8gr/" data-instgrm-version="14"></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DannD9iS7mi/" data-instgrm-version="14"></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dahwms8PiGE/" data-instgrm-version="14"></blockquote>
-        </div>
-        <div class="insta-cta" data-aos="fade-up">
-          <a href="https://www.instagram.com/chennaimobileskaraikudi?igsh=YW9yb2w1Zmp0OHIw" target="_blank" rel="noopener" class="btn primary">
-            <i class="fa-brands fa-instagram"></i>
-            <span data-i18n="insta_btn">Follow @chennaimobileskaraikudi</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= OUR STORY ================= -->
-    <section class="story" id="story">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="subtitle" data-i18n="story_subtitle">Our Journey</span>
-          <h2 data-i18n="story_title">Our Story</h2>
-        </div>
-        <div class="story-grid">
-          <div class="story-content" data-aos="fade-right">
-            <p data-i18n="story_p1">Chennai Mobiles, founded in 2003 by the dynamic and visionary Managing Director, Mr. Mohamed Azik, has been a formidable player in the mobile retail industry for two decades. Based in Ramanathapuram, Tamil Nadu, our journey has been marked by innovation, expansion, and a relentless commitment to customer satisfaction. Here, we present the story of Chennai Mobiles in a thousand words, highlighting our vision, mission, year-wise achievements, and a reflection on our journey.</p>
-            <p data-i18n="story_p2">We believe that everyone deserves access to the latest mobile technology. That's why we've partnered with the world's leading brands to bring you flagship devices, premium accessories, and exclusive offers.</p>
-            <p data-i18n="story_p3">Today, with multiple locations across the country and a growing online presence, we continue to innovate and expand our services to meet the evolving needs of our customers.</p>
-            <div class="story-stats">
-              <div class="stat">
-                <span class="stat-number">23+</span>
-                <span class="stat-label" data-i18n="stat_years">Years Experience</span>
-              </div>
-              <div class="stat">
-                <span class="stat-number">1M+</span>
-                <span class="stat-label" data-i18n="stat_customers">Happy Customers</span>
-              </div>
-              <div class="stat">
-                <span class="stat-number">25+</span>
-                <span class="stat-label" data-i18n="stat_brands">Brand Partners</span>
-              </div>
-            </div>
-          </div>
-          <div class="story-image" data-aos="fade-left">
-            <div class="story-card">
-              <i class="fa-solid fa-rocket"></i>
-              <h3 data-i18n="story_card1_title">Innovation First</h3>
-              <p data-i18n="story_card1_desc">Always bringing the latest technology to our customers</p>
-            </div>
-            <div class="story-card">
-              <i class="fa-solid fa-heart"></i>
-              <h3 data-i18n="story_card2_title">Customer Love</h3>
-              <p data-i18n="story_card2_desc">Dedicated to providing exceptional service</p>
-            </div>
-            <div class="story-card">
-              <i class="fa-solid fa-trophy"></i>
-              <h3 data-i18n="story_card3_title">Quality Assured</h3>
-              <p data-i18n="story_card3_desc">Only genuine products from authorized sources</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= OUR TOP BRANDS ================= -->
-    <section class="brands" id="brands">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="subtitle" data-i18n="brands_subtitle">Premium Partners</span>
-          <h2 data-i18n="brands_title">Our Top Brands</h2>
-        </div>
-        <div class="brands-grid">
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="100">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
-            </div>
-            <h3>Apple</h3>
-            <p data-i18n="brand_apple">iPhone, iPad, MacBook & Accessories</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="150">
-            <div class="brand-icon brand-icon-wordmark">
-              <svg viewBox="0 0 200 48" aria-hidden="true"><text x="100" y="34" text-anchor="middle" class="brand-wordmark-text">SAMSUNG</text></svg>
-            </div>
-            <h3>Samsung</h3>
-            <p data-i18n="brand_samsung">Galaxy Series, Smartphones & Tablets</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="200">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>
-            </div>
-            <h3>Google Pixel</h3>
-            <p data-i18n="brand_pixel">Pure Android Experience</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="250">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M0 3.74V24h20.26V12.428h-2.256v9.317H2.254V5.995h9.318V3.742zM18.004 0v3.74h-3.758v2.256h3.758v3.758h2.255V5.996H24V3.74h-3.758V0zm-6.45 18.756V8.862H9.562c0 .682-.228 1.189-.577 1.504-.367.297-.91.437-1.556.437h-.245v1.625h2.133v6.31h2.237z"/></svg>
-            </div>
-            <h3>OnePlus</h3>
-            <p data-i18n="brand_oneplus">Flagship Killers & Premium Devices</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="300">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C8.016 0 4.756.255 2.493 2.516.23 4.776 0 8.033 0 12.012c0 3.98.23 7.235 2.494 9.497C4.757 23.77 8.017 24 12 24c3.983 0 7.243-.23 9.506-2.491C23.77 19.247 24 15.99 24 12.012c0-3.984-.233-7.243-2.502-9.504C19.234.252 15.978 0 12 0zM4.906 7.405h5.624c1.47 0 3.007.068 3.764.827.746.746.827 2.233.83 3.676v4.54a.15.15 0 0 1-.152.147h-1.947a.15.15 0 0 1-.152-.148V11.83c-.002-.806-.048-1.634-.464-2.051-.358-.36-1.026-.441-1.72-.458H7.158a.15.15 0 0 0-.151.147v6.98a.15.15 0 0 1-.152.148H4.906a.15.15 0 0 1-.15-.148V7.554a.15.15 0 0 1 .15-.149zm12.131 0h1.949a.15.15 0 0 1 .15.15v8.892a.15.15 0 0 1-.15.148h-1.949a.15.15 0 0 1-.151-.148V7.554a.15.15 0 0 1 .151-.149zM8.92 10.948h2.046c.083 0 .15.066.15.147v5.352a.15.15 0 0 1-.15.148H8.92a.15.15 0 0 1-.152-.148v-5.352a.15.15 0 0 1 .152-.147Z"/></svg>
-            </div>
-            <h3>Xiaomi</h3>
-            <p data-i18n="brand_xiaomi">Innovation at Best Value</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="350">
-            <div class="brand-icon brand-icon-wordmark">
-              <svg viewBox="0 0 200 48" aria-hidden="true"><text x="100" y="34" text-anchor="middle" class="brand-wordmark-text">SONY</text></svg>
-            </div>
-            <h3>Sony</h3>
-            <p data-i18n="brand_sony">Premium Audio & Xperia Devices</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="400">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.85 12.786h-.001C1.639 12.774.858 12.2.858 11.321s.781-1.452 1.99-1.465c1.21.013 1.992.588 1.992 1.465s-.782 1.453-1.99 1.465zm.034-3.638h-.073C1.156 9.175 0 10.068 0 11.32s1.156 2.147 2.811 2.174h.073c1.655-.027 2.811-.921 2.811-2.174S4.54 9.175 2.885 9.148zm18.27 3.638c-1.21-.012-1.992-.587-1.992-1.465s.782-1.452 1.991-1.465c1.21.013 1.991.588 1.991 1.465s-.781 1.453-1.99 1.465zm.035-3.638h-.073c-1.655.027-2.811.92-2.811 2.173s1.156 2.147 2.81 2.174h.074C22.844 13.468 24 12.574 24 11.32s-1.156-2.146-2.811-2.173zm-6.126 3.638c-1.21-.012-1.99-.587-1.99-1.465s.78-1.452 1.99-1.465c1.21.013 1.991.588 1.991 1.465s-.781 1.453-1.99 1.465zm.036-3.638h-.073c-.789.013-1.464.222-1.955.574v-.37h-.857v5.5h.857v-1.931c.49.351 1.166.56 1.954.574h.074c1.655-.027 2.81-.921 2.81-2.174s-1.155-2.146-2.81-2.173zm-6.144 3.638c-1.21-.012-1.99-.587-1.99-1.465s.78-1.452 1.99-1.465c1.21.013 1.991.588 1.991 1.465s-.781 1.453-1.99 1.465zm.037-3.638H8.92c-.789.013-1.464.222-1.955.574v-.37h-.856v5.5h.856v-1.931c.491.351 1.166.56 1.955.574a3.728 3.728 0 0 0 .073 0c1.655-.027 2.811-.921 2.811-2.174s-1.156-2.146-2.81-2.173z"/></svg>
-            </div>
-            <h3>Oppo</h3>
-            <p data-i18n="brand_oppo">Stylish Design & Fast Charging</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="450">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.604 14.101c-1.159 0-1.262-.95-1.262-1.24 0-.29.103-1.242 1.262-1.242h2.062c1.16 0 1.263.951 1.263 1.242 0 .29-.104 1.24-1.263 1.24m-2.062-3.527c-2.142 0-2.333 1.752-2.333 2.287 0 .535.19 2.286 2.333 2.286h2.062c2.143 0 2.334-1.751 2.334-2.286 0-.535-.19-2.287-2.334-2.287m-5.477.107c-.286 0-.345.05-.456.213-.11.164-2.022 3.082-2.022 3.082-.06.09-.126.126-.206.126-.08 0-.145-.036-.206-.126 0 0-1.912-2.918-2.022-3.082-.11-.164-.17-.213-.456-.213h-.668c-.154 0-.224.12-.127.267l2.283 3.467c.354.521.614.732 1.196.732s.842-.21 1.196-.732l2.284-3.467c.096-.146.026-.267-.128-.267m-8.876.284c0-.203.08-.284.283-.284h.505c.203 0 .283.08.283.283v3.9c0 .202-.08.283-.283.283h-.505c-.203 0-.283-.08-.283-.283zm-1.769-.285c-.287 0-.346.05-.456.213-.11.164-2.022 3.082-2.022 3.082-.061.09-.126.126-.206.126-.08 0-.145-.036-.206-.126 0 0-1.912-2.918-2.023-3.082-.11-.164-.169-.213-.455-.213H.175c-.171 0-.224.12-.127.267l2.283 3.467c.355.521.615.732 1.197.732.582 0 .842-.21 1.196-.732l2.283-3.467c.097-.146.044-.267-.127-.267m1.055-.893c-.165-.164-.165-.295 0-.46l.351-.351c.165-.165.296-.165.46 0l.352.351c.165.165.165.296 0 .46l-.352.352c-.164.165-.295.165-.46 0z"/></svg>
-            </div>
-            <h3>vivo</h3>
-            <p data-i18n="brand_vivo">Camera & Music Focused Smartphones</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="500">
-            <div class="brand-icon brand-icon-wordmark">
-              <svg viewBox="0 0 200 48" aria-hidden="true"><text x="100" y="34" text-anchor="middle" class="brand-wordmark-text">realme</text></svg>
-            </div>
-            <h3>Realme</h3>
-            <p data-i18n="brand_realme">Powerful Performance, Youthful Style</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="550">
-            <div class="brand-icon brand-icon-wordmark">
-              <svg viewBox="0 0 200 48" aria-hidden="true"><text x="100" y="34" text-anchor="middle" class="brand-wordmark-text">Redmi</text></svg>
-            </div>
-            <h3>Redmi</h3>
-            <p data-i18n="brand_redmi">Feature-Packed Phones at Great Value</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="600">
-            <div class="brand-icon brand-icon-wordmark">
-              <svg viewBox="0 0 200 48" aria-hidden="true"><text x="100" y="34" text-anchor="middle" class="brand-wordmark-text">iQOO</text></svg>
-            </div>
-            <h3>iQOO</h3>
-            <p data-i18n="brand_iqoo">Performance Flagships for Gamers</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="650">
-            <div class="brand-icon brand-icon-wordmark">
-              <svg viewBox="0 0 200 48" aria-hidden="true"><text x="100" y="34" text-anchor="middle" class="brand-wordmark-text">Infinix</text></svg>
-            </div>
-            <h3>Infinix</h3>
-            <p data-i18n="brand_infinix">Big Battery & Budget-Friendly Phones</p>
-          </div>
-          <div class="brand-card" data-aos="zoom-in" data-aos-delay="700">
-            <div class="brand-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12C24.002 5.375 18.632.002 12.007 0H12zm7.327 18.065s-.581-2.627-1.528-4.197c-.514-.857-1.308-1.553-2.368-1.532-.745 0-1.399.423-2.2 1.553-.469.77-.882 1.573-1.235 2.403 0 0-.29-.675-.63-1.343a8.038 8.038 0 0 0-.605-1.049c-.804-1.13-1.455-1.539-2.2-1.553-1.049-.021-1.854.675-2.364 1.528-.948 1.574-1.528 4.197-1.528 4.197h-.864l4.606-15.12 3.56 11.804.024.021.024-.021 3.56-11.804 4.61 15.113h-.862z"/></svg>
-            </div>
-            <h3>Motorola</h3>
-            <p data-i18n="brand_motorola">Clean Android & Reliable Devices</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= OUR VISION ================= -->
-    <section class="vision" id="vision">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="subtitle" data-i18n="vision_subtitle">Looking Ahead</span>
-          <h2 data-i18n="vision_title">Our Vision</h2>
-        </div>
-        <div class="vision-content">
-          <div class="vision-text" data-aos="fade-right">
-            <h3 data-i18n="vision_h3">Connecting People with Smarter Technology</h3>
-            <p data-i18n="vision_p1">We aspire to create a shopping experience where technology is simple, reliable, and accessible to everyone. By offering carefully selected mobile phones, smart devices, and electronic products, we aim to help customers make confident choices that improve their everyday lives.</p>
-            <p data-i18n="vision_p2">Our vision is driven by four guiding principles:</p>
-            <ul class="vision-list">
-              <li>
-                <i class="fa-solid fa-check-circle"></i>
-                <span data-i18n-html="vision_li1"><strong>Customer First:</strong> Every decision we make begins with understanding our customers' needs and delivering an experience they can trust.</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check-circle"></i>
-                <span data-i18n-html="vision_li2"><strong>Quality & Authenticity:</strong> We are committed to offering genuine products from leading brands, backed by dependable service and support.</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check-circle"></i>
-                <span data-i18n-html="vision_li3"><strong>Innovation:</strong> We continuously expand our range with the latest technology and smart solutions to keep customers connected to what's next.</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check-circle"></i>
-                <span data-i18n-html="vision_li4"><strong>Value for Everyone:</strong> We believe great technology should be accessible, providing competitive pricing and excellent service without compromising on quality.</span>
-              </li>
-            </ul>
-          </div>
-          <div class="vision-image" data-aos="fade-left">
-            <div class="vision-circle">
-              <i class="fa-solid fa-lightbulb"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= STORE LOCATOR ================= -->
-    <section class="store-locator" id="store-locator">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="subtitle" data-i18n="store_subtitle">Find Us</span>
-          <h2 data-i18n="store_title">Store Locator</h2>
-        </div>
-        <div class="locator-content">
-          <div class="locator-info" data-aos="fade-right">
-            <h3 data-i18n="store_h3">Visit Our Showrooms</h3>
-            <p data-i18n="store_p">Experience our premium devices in person at any of our conveniently located stores.</p>
-            <div class="store-list">
-              <div class="store-item">
-                <i class="fa-solid fa-store"></i>
-                <div>
-                  <h4 data-i18n="store_branch">Karaikudi Branch</h4>
-                  <p data-i18n="store_addr_ta">செக்காலை சாலை, காரைக்குடி - 630001</p>
-                  <p data-i18n="store_addr_en">Sekkalai Road, Karaikudi - 630001</p>
-                  <p data-i18n="store_hours">Monday - Sunday: 9AM - 9PM</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="locator-map" data-aos="fade-left">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.0!2d78.7700!3d10.0700!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00e5860d6d1c9d%3A0x6c3e0e0e0e0e0e0e!2sKaraikudi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1635959481000!5m2!1sen!2sin" 
-              width="100%" 
-              height="400" 
-              style="border:0; border-radius: 1rem;" 
-              allowfullscreen="" 
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= CONTACT US ================= -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="section-header" data-aos="fade-up">
-          <span class="subtitle" data-i18n="contact_subtitle">Get In Touch</span>
-          <h2 data-i18n="contact_title">Contact Us</h2>
-        </div>
-        <div class="contact-content">
-          <div class="contact-info" data-aos="fade-right">
-            <h3 data-i18n="contact_h3">We'd Love to Hear From You</h3>
-            <p data-i18n="contact_p">Have questions? Need support? Reach out to our team and we'll get back to you within 24 hours.</p>
-            <div class="contact-details">
-              <div class="contact-item">
-                <i class="fa-solid fa-phone"></i>
-                <div>
-                  <h4 data-i18n="contact_phone">Phone</h4>
-                  <p><a href="tel:+919791677623">9791677623</a></p>
-                  <p><a href="tel:+919486677623">9486677623</a></p>
-                </div>
-              </div>
-              <div class="contact-item">
-                <i class="fa-solid fa-envelope"></i>
-                <div>
-                  <h4 data-i18n="contact_email">Email</h4>
-                  <p>archennaimobiles@gmail.com</p>
-                </div>
-              </div>
-              <div class="contact-item">
-                <i class="fa-solid fa-location-dot"></i>
-                <div>
-                  <h4 data-i18n="contact_address">Address</h4>
-                  <p data-i18n="contact_addr_ta">செக்காலை சாலை, காரைக்குடி - 630001, சிவகங்கை மாவட்டம்</p>
-                  <p data-i18n="contact_addr_en">Sekkalai Road, Karaikudi - 630001, Sivaganga District</p>
-                </div>
-              </div>
-            </div>
-            <div class="social-links">
-              <a href="https://www.facebook.com/share/19EyjKRQPp/"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/chennaimobileskaraikudi?igsh=YW9yb2w1Zmp0OHIw"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            </div>
-          </div>
-          <div class="contact-form" data-aos="fade-left">
-            <form>
-              <div class="form-group">
-                <input type="text" placeholder="Your Name" data-i18n-placeholder="form_name" required>
-              </div>
-              <div class="form-group">
-                <input type="email" placeholder="Your Email" data-i18n-placeholder="form_email" required>
-              </div>
-              <div class="form-group">
-                <input type="text" placeholder="Subject" data-i18n-placeholder="form_subject" required>
-              </div>
-              <div class="form-group">
-                <textarea placeholder="Your Message" rows="5" data-i18n-placeholder="form_message" required></textarea>
-              </div>
-              <button type="submit" class="btn primary" data-i18n="form_send">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-brand">
-            <a href="#" class="logo">
-              <img src="assets/images/logo-img.png" alt="AR Chennai Mobiles" class="logo-img" />
-            </a>
-            <p data-i18n="footer_brand">Your premium destination for the latest mobile technology and accessories.</p>
-          </div>
-          <div class="footer-links">
-            <h4 data-i18n="footer_quicklinks">Quick Links</h4>
-            <ul>
-              <li><a href="#home" data-i18n="nav_home">Home</a></li>
-              <li><a href="#story" data-i18n="nav_story">Our Story</a></li>
-              <li><a href="#brands" data-i18n="footer_brands">Brands</a></li>
-              <li><a href="#contact" data-i18n="footer_contact">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-links">
-            <h4 data-i18n="footer_services">Services</h4>
-            <ul>
-              <li><a href="#" data-i18n="footer_repair">Device Repair</a></li>
-              <li><a href="#" data-i18n="footer_tradein">Trade-In</a></li>
-              <li><a href="#" data-i18n="footer_financing">Financing</a></li>
-              <li><a href="#" data-i18n="footer_support">Support</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p class="footer-reg"><span data-i18n="footer_reg">GST Registration No:</span> 33GXAPS1266K1Z8</p>
-          <p>&copy; <span id="current-year"></span> AR Chennai Mobiles. <span data-i18n="footer_rights">All rights reserved.</span></p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Swiper -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-    <!-- Instagram embeds -->
-    <script async src="https://www.instagram.com/embed.js"></script>
-
-    <!-- i18n -->
-    <script src="assets/js/i18n.js"></script>
-
-    <!-- JS -->
-    <script src="assets/js/script.js"></script>
   </body>
 </html>
